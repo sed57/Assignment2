@@ -1,14 +1,14 @@
 //
-//  Fruit.m
-//  FruitInheritance
+//  Vegetable.m
+//  VegetableInheritance
 //
-//  Created by David Evans on 1/24/13.
+//  Created by Sean Donohue on 2/4/13.
 //  Copyright (c) 2013 DavidEvans. All rights reserved.
 //
 
-#import "Fruit.h"
+#import "Vegetable.h"
 
-@implementation Fruit
+@implementation Vegetable
 
 -initWithWithName:(NSString *) inName andColor:(NSString *) inColor andShape:(NSString *) inShape
 {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5266856D16C0938800C2EE89 /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5266856C16C0938800C2EE89 /* Onion.m */; };
+		5266857016C0939F00C2EE89 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5266856F16C0939F00C2EE89 /* Pumpkin.m */; };
 		555E431416B84E1D00696EF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431316B84E1D00696EF1 /* UIKit.framework */; };
 		555E431616B84E1D00696EF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431516B84E1D00696EF1 /* Foundation.framework */; };
 		555E431816B84E1D00696EF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431716B84E1D00696EF1 /* CoreGraphics.framework */; };
@@ -18,12 +20,16 @@
 		555E432A16B84E1E00696EF1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555E432916B84E1E00696EF1 /* Default-568h@2x.png */; };
 		555E432D16B84E1E00696EF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E432C16B84E1E00696EF1 /* ViewController.m */; };
 		555E433016B84E1E00696EF1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555E432E16B84E1E00696EF1 /* ViewController.xib */; };
-		555E433C16B852FF00696EF1 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433616B852FF00696EF1 /* Fruit.m */; };
-		555E433D16B852FF00696EF1 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433816B852FF00696EF1 /* Apple.m */; };
+		555E433C16B852FF00696EF1 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433616B852FF00696EF1 /* Vegetable.m */; };
+		555E433D16B852FF00696EF1 /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433816B852FF00696EF1 /* Potato.m */; };
 		555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433B16B852FF00696EF1 /* GoldDelicious.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5266856B16C0938800C2EE89 /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
+		5266856C16C0938800C2EE89 /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
+		5266856E16C0939F00C2EE89 /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
+		5266856F16C0939F00C2EE89 /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
 		555E431016B84E1D00696EF1 /* FruitCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555E431316B84E1D00696EF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		555E431516B84E1D00696EF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,10 +46,10 @@
 		555E432B16B84E1E00696EF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		555E432C16B84E1E00696EF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		555E432F16B84E1E00696EF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		555E433616B852FF00696EF1 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
-		555E433716B852FF00696EF1 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
-		555E433816B852FF00696EF1 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
-		555E433916B852FF00696EF1 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		555E433616B852FF00696EF1 /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		555E433716B852FF00696EF1 /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
+		555E433816B852FF00696EF1 /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
+		555E433916B852FF00696EF1 /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
 		555E433A16B852FF00696EF1 /* GoldDelicious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldDelicious.h; sourceTree = "<group>"; };
 		555E433B16B852FF00696EF1 /* GoldDelicious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldDelicious.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,12 +126,16 @@
 		555E433F16B8530800696EF1 /* Fruits */ = {
 			isa = PBXGroup;
 			children = (
-				555E433716B852FF00696EF1 /* Apple.h */,
-				555E433816B852FF00696EF1 /* Apple.m */,
-				555E433916B852FF00696EF1 /* Fruit.h */,
-				555E433616B852FF00696EF1 /* Fruit.m */,
+				555E433716B852FF00696EF1 /* Potato.h */,
+				555E433816B852FF00696EF1 /* Potato.m */,
+				555E433916B852FF00696EF1 /* Vegetable.h */,
+				555E433616B852FF00696EF1 /* Vegetable.m */,
 				555E433A16B852FF00696EF1 /* GoldDelicious.h */,
 				555E433B16B852FF00696EF1 /* GoldDelicious.m */,
+				5266856B16C0938800C2EE89 /* Onion.h */,
+				5266856C16C0938800C2EE89 /* Onion.m */,
+				5266856E16C0939F00C2EE89 /* Pumpkin.h */,
+				5266856F16C0939F00C2EE89 /* Pumpkin.m */,
 			);
 			name = Fruits;
 			sourceTree = "<group>";
@@ -199,9 +209,11 @@
 				555E432016B84E1E00696EF1 /* main.m in Sources */,
 				555E432416B84E1E00696EF1 /* AppDelegate.m in Sources */,
 				555E432D16B84E1E00696EF1 /* ViewController.m in Sources */,
-				555E433C16B852FF00696EF1 /* Fruit.m in Sources */,
-				555E433D16B852FF00696EF1 /* Apple.m in Sources */,
+				555E433C16B852FF00696EF1 /* Vegetable.m in Sources */,
+				555E433D16B852FF00696EF1 /* Potato.m in Sources */,
 				555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */,
+				5266856D16C0938800C2EE89 /* Onion.m in Sources */,
+				5266857016C0939F00C2EE89 /* Pumpkin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +302,7 @@
 				GCC_PREFIX_HEADER = "FruitCart/FruitCart-Prefix.pch";
 				INFOPLIST_FILE = "FruitCart/FruitCart-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -301,6 +314,7 @@
 				GCC_PREFIX_HEADER = "FruitCart/FruitCart-Prefix.pch";
 				INFOPLIST_FILE = "FruitCart/FruitCart-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -324,6 +338,7 @@
 				555E433516B84E1E00696EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
