@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 DavidEvans. All rights reserved.
 //
 
-#import "Apple.h"
+#import "Pumpkin.h"
 
-@interface GoldDelicious : Apple
+@interface GoldDelicious : Pumpkin
 
 @end

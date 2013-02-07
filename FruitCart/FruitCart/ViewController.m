@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "Vegetable.h"
+#import "Pumpkin.h"
+#import "Potato.h"
+#import "Onion.h"
 
 @interface ViewController ()
 
@@ -21,16 +24,13 @@
 	// Do any additional setup after loading the view, typically from a nib.
     _cart = [NSMutableArray arrayWithCapacity:0];
     
-    for(int i = 0; i < 50; i++){
-        NSString * vegetableName = [NSString stringWithFormat:@"Banana %d", i];
-        
-        if((i % 10) == 0){
-            vegetableName = [NSString stringWithFormat:@"Free Banana %d", i];
-        }
-        Vegetable * anonVegetable = [[Vegetable alloc] initWithWithName:vegetableName andColor:@"Yellow" andShape:@"Curved"];
-        [_cart addObject:anonVegetable];
-    }
+    Pumpkin * pumpkin1 = [[Pumpkin alloc] init];
+    Potato * potato1 = [[Potato alloc] init];
+    Onion * onion1 = [[Onion alloc] init];
     
+    [_cart addObject:pumpkin1];
+    [_cart addObject:potato1];
+    [_cart addObject:onion1];
     
 }
 
